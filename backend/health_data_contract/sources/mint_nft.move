@@ -38,7 +38,7 @@ module health_data_contract::mint_nft {
         };
 
         event::emit(MintEvent {
-            object_id: id(&nft), // <-- Pass NFT object, not nft.id
+            object_id: id(&nft),
             data_hash,
             cohort,
             created_at,
