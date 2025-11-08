@@ -42,6 +42,7 @@ Users see a familiar dashboard, track their earnings, and can easily see which b
 Everything feels like a standard web platform—blockchain is only used behind the scenes for fairness, security, and automated payments.
 
 *WE CAN USE MOCK DATA TO FILL THE DB ALSO*
+
 *IF ITS NOT LOOKING GOOD WE CAN DEFAULT TO VERSION WITHOUT BLOCKCHAIN OR REGULAR DASHBOARD FOR DATA*
 
 
