@@ -21,4 +21,28 @@ System tracks the sale and automatically splits the payment among all contributo
 
 Each user gets a notification or dashboard update showing they earned a reward from the sale.
 
-## All blockchain magic happens in the background—users just use a familiar web app and see their rewards!
+## Why Blockchain?
+Handles automatic payments to users when their data is sold.
+
+Creates permanent, tamper-proof records (“immutable objects”) for each user’s health data.
+
+Guarantees users give clear consent before their data can be included or sold.
+
+Proves and tracks true ownership of each user’s data participation.
+
+-- juan and eric can do blockchain functionality
+basically, when a user prompts UI (uploads or records their data), UI will talk to Flask backend. Flask backend will then call the smart-contract that creates the NFT for that data (NFT = tamper-proof record (immutable object)). Flask is the middle connector between the UI and the smart contract (blockchain). When called the smart contract instantly creates an NFT on the blockchain with the user as the owner.
+
+How do we know the User is the owner? We can use third-party login through Google. When someone signs up, we will automatically create a blockchain address for them. This address will identify them and be linked to the NFT that is created from their data.
+
+Bundles of similar data (by age group, activity, etc.) get sold to researchers, and our contracts split any payment among all the users in the bundle, all automated and transparent.
+All blockchain magic happens in the background—users just use a familiar web app and see their rewards!
+
+Apart from the blockchain features, it’s just a regular marketplace—
+Researchers browse and shop for large, anonymized bundles of health data grouped by useful categories (like age, activity, or device type).
+Users see a familiar dashboard, track their earnings, and can easily see which bundles their data is part of.
+Everything feels like a standard web platform—blockchain is only used behind the scenes for fairness, security, and automated payments.
+
+*WE CAN USE MOCK DATA TO FILL THE DB ALSO*
+
+
