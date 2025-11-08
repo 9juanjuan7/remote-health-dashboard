@@ -36,9 +36,6 @@ basically, when a user prompts UI (uploads or records their data), UI will talk 
 
 How do we know the User is the owner? We can use third-party login through Google. When someone signs up, we will automatically create a blockchain address for them. This address will identify them and be linked to the NFT that is created from their data.
 
-Bundles of similar data (by age group, activity, etc.) get sold to researchers, and our contracts split any payment among all the users in the bundle, all automated and transparent.
-All blockchain magic happens in the background—users just use a familiar web app and see their rewards!
-
 Apart from the blockchain features, it’s just a regular marketplace—
 Researchers browse and shop for large, anonymized bundles of health data grouped by useful categories (like age, activity, or device type).
 Users see a familiar dashboard, track their earnings, and can easily see which bundles their data is part of.
