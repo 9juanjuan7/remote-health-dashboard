@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# 1. Write a user
+curl -X POST http://127.0.0.1:5000/add?path=users/alice \
+     -H "Content-Type: application/json" \
+     -d '{"name":"Alice","age":30}'
+
+# 2. Read everything
+curl http://127.0.0.1:5000/data
+
+# 3. Read a single node
+curl http://127.0.0.1:5000/data | jq .users.alice
+
+# 4. Delete
+curl -X DELETE http://127.0.0.1:5000/delete/users/alice
+
+# 5. Verify it’s gone
+curl http://127.0.0.1:5000/data
