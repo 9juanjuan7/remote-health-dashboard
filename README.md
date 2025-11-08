@@ -31,6 +31,7 @@ Guarantees users give clear consent before their data can be included or sold.
 Proves and tracks true ownership of each user’s data participation.
 
 -- juan and eric can do blockchain functionality
+
 basically, when a user prompts UI (uploads or records their data), UI will talk to Flask backend. Flask backend will then call the smart-contract that creates the NFT for that data (NFT = tamper-proof record (immutable object)). Flask is the middle connector between the UI and the smart contract (blockchain). When called the smart contract instantly creates an NFT on the blockchain with the user as the owner.
 
 How do we know the User is the owner? We can use third-party login through Google. When someone signs up, we will automatically create a blockchain address for them. This address will identify them and be linked to the NFT that is created from their data.
