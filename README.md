@@ -1,4 +1,4 @@
-# remote-health-dashboard
+# health data marketplace
 
 We’re building a health data marketplace where people can upload their sensor data (like heart rate or movement) using our hardware. Instead of selling data one by one, everyone’s data gets grouped into big, anonymous bundles (called cohorts).
 
