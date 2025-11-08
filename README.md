@@ -7,7 +7,7 @@ When a researcher buys a bundle, our system automatically tracks ownership and s
 We use blockchain behind the scenes for fairness, transparency, and simple automated payouts—but users just see an easy web app, no crypto or wallets required.
 
 
-#Simple User Flow for the Marketplace:
+## Simple User Flow for the Marketplace:
 
 User signs up with Google.
 
@@ -21,4 +21,4 @@ System tracks the sale and automatically splits the payment among all contributo
 
 Each user gets a notification or dashboard update showing they earned a reward from the sale.
 
-#All blockchain magic happens in the background—users just use a familiar web app and see their rewards!
+## All blockchain magic happens in the background—users just use a familiar web app and see their rewards!
